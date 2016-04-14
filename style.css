@@ -1,0 +1,37 @@
+
+.container{
+    max-width: 600px;
+    padding: 16px 0 16px 0;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+}
+.blue {
+    color:#41bded;
+}
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    padding-left: 0px;
+    text-indent: 0px;
+}
+ul li { padding: 5px 0px; }
+li:before {
+    content: "• ";
+    font-size: 18px;
+    color: #41bded; /* or whatever color you prefer */
+}
+.end {
+    background-color: #41bded;
+    color: white;
+    text-align: center;
+}
+.end1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
